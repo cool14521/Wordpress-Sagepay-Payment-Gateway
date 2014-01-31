@@ -1,6 +1,6 @@
 <?php
 /*
- Plugin Name: Wordpress Custom SagePay Payment Gateway
+ Plugin Name: Wordpress SagePay Payment Gateway
  Plugin URI: http://www.pragmasoftwares.com
  Version: 1.0
  Author: Pankaj D.
@@ -22,7 +22,7 @@ if ( !defined( 'SAGEPAY_TITLE' ) )	define( 'SAGEPAY_TITLE', 'Sage Pay' );
 define(SAGEPAY_ENV, 'DEVELOPMENT'); # Environment LIVE, DEVELOPMENT
 define(SAGEPAY_TYPE, 'PAYMENT');  // Transaction type
 define(SAGEPAY_PROTOCOL_VERSION, '2.22'); // SagePay protocol vers no
-define(SAGEPAY_VENDOR, 'michaelstrophie');  // Your SagePay vendor name
+define(SAGEPAY_VENDOR, 'testvendor');  // Your SagePay vendor name
 define(SAGEPAY_CURRENCY, 'GBP');  // currency USD, GBP
       
 
